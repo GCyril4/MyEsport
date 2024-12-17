@@ -1,0 +1,218 @@
+[
+    {
+        "total": 4,
+        "wins": 4,
+        "rank": 1,
+        "team": {
+            "id": 133864,
+            "name": "Carolina Royal Ravens",
+            "location": "US",
+            "slug": "carolina-royal-ravens",
+            "modified_at": "2024-11-14T09:05:01Z",
+            "acronym": "CRR",
+            "image_url": "https://cdn.pandascore.co/images/team/image/133864/carolina_royal_ravenslogo_profile.png"
+        },
+        "losses": 0,
+        "game_wins": 12,
+        "game_ties": 0,
+        "game_losses": 4
+    },
+    {
+        "total": 4,
+        "wins": 4,
+        "rank": 1,
+        "team": {
+            "id": 126844,
+            "name": "Toronto Ultra",
+            "location": "CA",
+            "slug": "toronto-ultra",
+            "modified_at": "2024-11-14T09:05:03Z",
+            "acronym": "TOR Ultra",
+            "image_url": "https://cdn.pandascore.co/images/team/image/126844/150px_toronto_ultralogo_square.png"
+        },
+        "losses": 0,
+        "game_wins": 12,
+        "game_ties": 0,
+        "game_losses": 5
+    },
+    {
+        "total": 4,
+        "wins": 4,
+        "rank": 1,
+        "team": {
+            "id": 128027,
+            "name": "Los Angeles Thieves",
+            "location": "US",
+            "slug": "los-angeles-thieves",
+            "modified_at": "2024-11-14T09:05:01Z",
+            "acronym": "LAT",
+            "image_url": "https://cdn.pandascore.co/images/team/image/128027/los_angeles_thieveslogo_profile.png"
+        },
+        "losses": 0,
+        "game_wins": 12,
+        "game_ties": 0,
+        "game_losses": 5
+    },
+    {
+        "total": 4,
+        "wins": 3,
+        "rank": 4,
+        "team": {
+            "id": 130158,
+            "name": "Boston Breach",
+            "location": "US",
+            "slug": "boston-cdl",
+            "modified_at": "2024-11-14T09:05:00Z",
+            "acronym": "BOS",
+            "image_url": "https://cdn.pandascore.co/images/team/image/130158/boston_breach_lightmode.png"
+        },
+        "losses": 1,
+        "game_wins": 11,
+        "game_ties": 0,
+        "game_losses": 9
+    },
+    {
+        "total": 4,
+        "wins": 3,
+        "rank": 4,
+        "team": {
+            "id": 130157,
+            "name": "OpTic Texas",
+            "location": "US",
+            "slug": "optic-texas",
+            "modified_at": "2024-12-13T13:14:20Z",
+            "acronym": "TEX",
+            "image_url": "https://cdn.pandascore.co/images/team/image/130157/op_tic_texaslogo_profile.png"
+        },
+        "losses": 1,
+        "game_wins": 11,
+        "game_ties": 0,
+        "game_losses": 6
+    },
+    {
+        "total": 4,
+        "wins": 2,
+        "rank": 6,
+        "team": {
+            "id": 126839,
+            "name": "Minnesota R\u00d8KKR",
+            "location": "US",
+            "slug": "minnesota-rokkr",
+            "modified_at": "2024-11-14T09:05:02Z",
+            "acronym": "MN R\u00d8KKR",
+            "image_url": "https://cdn.pandascore.co/images/team/image/126839/150px_minnesota_rokk_rlogo_square.png"
+        },
+        "losses": 2,
+        "game_wins": 8,
+        "game_ties": 0,
+        "game_losses": 10
+    },
+    {
+        "total": 4,
+        "wins": 1,
+        "rank": 7,
+        "team": {
+            "id": 135970,
+            "name": "Vancouver Surge",
+            "location": "US",
+            "slug": "vancouver-surge",
+            "modified_at": "2024-11-28T13:14:37Z",
+            "acronym": "VAN",
+            "image_url": "https://cdn.pandascore.co/images/team/image/135970/150px_seattle_surgelogo_square.png"
+        },
+        "losses": 3,
+        "game_wins": 8,
+        "game_ties": 0,
+        "game_losses": 11
+    },
+    {
+        "total": 4,
+        "wins": 1,
+        "rank": 7,
+        "team": {
+            "id": 135904,
+            "name": "Cloud9 New York",
+            "location": "US",
+            "slug": "cloud-9-new-york",
+            "modified_at": "2024-11-23T13:06:24Z",
+            "acronym": "C9.NY",
+            "image_url": "https://cdn.pandascore.co/images/team/image/135904/cloud9_2023_allmode.png"
+        },
+        "losses": 3,
+        "game_wins": 6,
+        "game_ties": 0,
+        "game_losses": 10
+    },
+    {
+        "total": 4,
+        "wins": 1,
+        "rank": 7,
+        "team": {
+            "id": 126833,
+            "name": "Atlanta FaZe",
+            "location": "US",
+            "slug": "atlanta-faze",
+            "modified_at": "2024-11-14T09:05:00Z",
+            "acronym": "ATL FaZe",
+            "image_url": "https://cdn.pandascore.co/images/team/image/126833/150px_atlanta_fa_zelogo_square.png"
+        },
+        "losses": 3,
+        "game_wins": 6,
+        "game_ties": 0,
+        "game_losses": 10
+    },
+    {
+        "total": 4,
+        "wins": 1,
+        "rank": 7,
+        "team": {
+            "id": 133927,
+            "name": "Miami Heretics",
+            "location": "US",
+            "slug": "miami-heretics",
+            "modified_at": "2024-12-02T13:58:33Z",
+            "acronym": "MH",
+            "image_url": "https://cdn.pandascore.co/images/team/image/133927/800px_miami_heretics_logo.svg.png"
+        },
+        "losses": 3,
+        "game_wins": 9,
+        "game_ties": 0,
+        "game_losses": 9
+    },
+    {
+        "total": 4,
+        "wins": 0,
+        "rank": 11,
+        "team": {
+            "id": 126838,
+            "name": "Los Angeles Guerrillas",
+            "location": "US",
+            "slug": "los-angeles-guerrillas",
+            "modified_at": "2024-12-06T16:39:30Z",
+            "acronym": "LA Guerrillas",
+            "image_url": "https://cdn.pandascore.co/images/team/image/126838/150px_los_angeles_guerrillaslogo_square.png"
+        },
+        "losses": 4,
+        "game_wins": 6,
+        "game_ties": 0,
+        "game_losses": 12
+    },
+    {
+        "total": 4,
+        "wins": 0,
+        "rank": 11,
+        "team": {
+            "id": 135426,
+            "name": "Las Vegas Falcons",
+            "location": "SA",
+            "slug": "las-vegas-falcons",
+            "modified_at": "2024-11-14T09:05:04Z",
+            "acronym": "LVF",
+            "image_url": "https://cdn.pandascore.co/images/team/image/135426/las_vegas_falconslogo_square.png"
+        },
+        "losses": 4,
+        "game_wins": 2,
+        "game_ties": 0,
+        "game_losses": 12
+    }
+]
