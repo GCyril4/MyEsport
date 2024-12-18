@@ -2,7 +2,7 @@ name: Mise à jour du classement
 
 # Définir la fréquence d'exécution du workflow
 on:
-  schedule:
+  push:
     - cron: '0 * * * *'  # Exécuter toutes les heures (UTC)
 
 jobs:
