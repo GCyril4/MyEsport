@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classement - Call of Duty League</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Classement de la Call of Duty League</h1>
+        <div id="ranking-list" class="ranking-list">
+            <!-- Le classement sera injecté ici par JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        // Remplace par l'URL brute de ton fichier JSON sur GitHub
+        const githubUrl = 'https://raw.githubusercontent.com/GCyril4/MyEsport/refs/heads/main/cdl_classement.json';
+
+        // Charger les données du classement depuis le fichier JSON sur GitHub
+        fetch(githubUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Erreur réseau : ' + response.status);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const rankingList = document.getElementById('ranking-list');
+                if (data.length === 0) {
+                    rankingList.innerHTML = "<p>Aucune donnée à afficher.</p>";
+                } else {
+                    data.forEach((team, index) => {
+                        const teamRow = document.createElement('div');
+                        teamRow.classList.add('team-row');
+                        
+                        // Créer le contenu du classement pour chaque équipe
+                        teamRow.innerHTML = `
+                            <div class="team-rank">${team.rank}</div>
+                            <div class="team-logo">
+                                <img src="${team.team.image_url}" alt="${team.team.name}" />
+                            </div>
+                            <div class="team-name">${team.team.name}</div>
+                            <div class="team-points">${team.wins * 10} Pts</div>
+                            <div class="team-record">${team.wins} W - ${team.losses} L</div>
+                            <div class="team-difference">${team.game_wins - team.game_ties} Diff</div>
+                        `;
+                        
+                        rankingList.appendChild(teamRow);
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Erreur lors du chargement des données :', error);
+                const rankingList = document.getElementById('ranking-list');
+                rankingList.innerHTML = "<p>Impossible de charger les données du classement.</p>";
+            });
+    </script>
+</body>
+</html>
